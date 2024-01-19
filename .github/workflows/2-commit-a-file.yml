@@ -32,7 +32,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_commit_a_file:
-    name: On commit a file
+    name: On commit a fileefe
     needs: get_current_step
 
     # We will only run this action when:
